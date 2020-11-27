@@ -693,7 +693,7 @@ textarea::-ms-input-placeholder{
 
 /*Preloader*/
 #loading{
-    background-image: url(../images/bg-menu.jpg);
+    background-image: url(../images/.jpg);
     background-color: #f01899;
     height: 100%;
     width: 100%;
