@@ -17,7 +17,7 @@
     <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://formspree.io/f/xwkwnjlk">
         
         <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
+            <label for="Name" class="fcf-label">Your Full name</label>
             <div class="fcf-input-group">
                 <input type="text" id="Name" name="Name" class="fcf-form-control" required>
             </div>
@@ -29,9 +29,33 @@
                 <input type="email" id="Email" name="Email" class="fcf-form-control" required>
             </div>
         </div>
+        <div class="fcf-form-group">
+            <label for="birthday" class="fcf-label">Your Date of Birth</label>
+            <div class="fcf-input-group">
+                <input type="date" id="birthday" name="birthday" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="phone" class="fcf-label">Your Mobile No.</label>
+            <div class="fcf-input-group">
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">City</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Occupation</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
 
  <div class="fcf-form-group">
-            <label for="Live on" class="fcf-label">Enter the Platform</label>
+            <label for="Live on" class="fcf-label">Experience as Host or Broadcaster</label>
             <div class="fcf-input-group">
                 <select id="name" name="Name" class="fcf-form-control" required>
     <option value="Bigo Live">Bigo Live</option>
@@ -48,9 +72,9 @@
         </div>
 
         <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
+            <label for="Message" class="fcf-label">Your Instagram Handle</label>
             <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                <textarea id="Message" name="" class="fcf-form-control" rows="2" maxlength="40" required></textarea>
             </div>
         </div>
 
